@@ -1,0 +1,89 @@
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+
+.search input {
+  width: 300px;
+  height: 7vh;
+  margin: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: var(--bg-gray);
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+}
+.invite input {
+  width: 200px;
+  height: 7vh;
+  margin: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: var(--bg-gray);
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+}
+.search button {
+  width: 40px;
+  height: 7vh;
+  background-color: var(--text-violet);
+  color: #fff;
+  font-weight: 700;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: none;
+  border: none;
+}
+
+.invite button {
+  width: 70px;
+  height: 7vh;
+  background-color: var(--text-violet);
+  color: #fff;
+  font-weight: 700;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: none;
+  border: none;
+}
+button.btnSmall {
+  width: 112px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid var(--text-violet);
+  border-radius: 5px;
+  color: var(--text-violet);
+}
+.btnSmall:hover {
+  background-color: var(--text-violet);
+  color: #fff;
+}
+
+.hrLine {
+  width: 130px;
+  height: 1px;
+  background-color: var(--bg-darkgray);
+  margin-top: 15px;
+  margin-left: 5px;
+}
+
+.cardviolet:hover {
+  background-color: var(--text-violet);
+}
+
+.cardblue:hover {
+  background-color: var(--text-blue);
+}
+
+.cardgreen:hover {
+  background-color: var(--text-green);
+}
+
+.cardred:hover {
+  background-color: var(--text-red);
+}
